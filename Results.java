@@ -11,12 +11,6 @@ public class Results
         this.winners = winners;
     }
     
-    public Results getResults()
-    {
-        Results res = new Results(prize, winners);
-        return res;
-    }
-    
     public static Results checkresult (ArrayList<Integer> draw, ArrayList<Integer> ticket)
     {
         int prize = 0;
